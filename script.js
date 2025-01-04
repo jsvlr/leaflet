@@ -58,9 +58,10 @@ window.onload = function () {
       .openPopup();
 
     // Add circle for accuracy
-    L.circle(userLocation, {
+    /*L.circle(userLocation, {
       radius: e.accuracy / 2,
     }).addTo(map);
+   */
   });
 
   map.on("locationerror", function (error) {
