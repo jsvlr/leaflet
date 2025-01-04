@@ -1,0 +1,12 @@
+* {
+  font-family: Poppins;
+}
+
+#map {
+  height: 100vh;
+  cursor: pointer;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
